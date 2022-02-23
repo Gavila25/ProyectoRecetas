@@ -1,4 +1,5 @@
 <p align="justify">
+  
 # Proyecto de Recetas
 <p align="Center">
 <img src="https://github.com/Gavila25/ProyectoRecetas/blob/main/Logos/logo_white_large.png?raw=true" width="500px">
