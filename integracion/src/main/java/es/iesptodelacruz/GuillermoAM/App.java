@@ -1,4 +1,4 @@
-package com.example;
+package es.iesptodelacruz.GuillermoAM;
 
 /**
  * Hello world!
