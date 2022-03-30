@@ -1,4 +1,4 @@
-package es.iesptodelacruz.GuillermoAM;
+package es.iesptodelacruz.proyectoRecetas;
 
 /**
  * Clase para realizar las busquedas que quiera el usuario
