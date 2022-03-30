@@ -1,4 +1,4 @@
-package es.iesptodelacruz.GuillermoAM;
+package es.iesptodelacruz.proyectoRecetas;
 
 /**
  * Clase para almacenar todas las recetas
