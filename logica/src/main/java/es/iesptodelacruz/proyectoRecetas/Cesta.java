@@ -1,4 +1,4 @@
-package es.iesptodelacruz.GuillermoAM;
+package es.iesptodelacruz.proyectoRecetas;
 
 import java.util.ArrayList;
 
