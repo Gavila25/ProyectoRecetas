@@ -1,4 +1,4 @@
-package es.iesptodelacruz.guillermoyangel;
+package es.iesptodelacruz.proyectoRecetas;
 
 import static org.junit.Assert.assertTrue;
 
