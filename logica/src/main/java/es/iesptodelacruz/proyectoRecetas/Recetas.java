@@ -1,11 +1,19 @@
 package es.iesptodelacruz.proyectoRecetas;
 
+import java.util.ArrayList;
+
 /**
  * Clase para almacenar todas las recetas
  */
 public class Recetas {
-    Ingredientes ingrediente;
+    Ingrediente ingrediente;
     String nombre;
+    ArrayList<Ingrediente> ingredientes;
+
+    /**
+     * Constructor por defecto
+     */
+    public Recetas(){}
 
     /**
      * Constructor con un solo campo
@@ -15,11 +23,11 @@ public class Recetas {
         this.nombre = nombre;
     }
 
-    public Ingredientes getIngrediente() {
+    public Ingrediente getIngrediente() {
         return ingrediente;
     }
 
-    public void setIngrediente(Ingredientes ingrediente) {
+    public void setIngrediente(Ingrediente ingrediente) {
         this.ingrediente = ingrediente;
     }
 
