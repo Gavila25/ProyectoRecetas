@@ -7,29 +7,36 @@ import java.util.TreeMap;
  * @author Guillermo Avila Martín
  */
 
-public class Usuarios {
+public class Usuario {
     String nombre;
     String apellido;
     String direccion;
     String correo;
-    Integer edad;
+    int edad;
     String contrasenia;
     String idUsuario;
-
-    TreeMap<String,Usuarios> historialUsuarios=new TreeMap<>();
+    Cesta cesta;
 
     /**
-     * Constructor con siete parametros
-     * @param nombre del usuario
-     * @param apellido del usuario
-     * @param direccion del usuario
-     * @param correo del usuario
-     * @param edad del usuario
-     * @param contraseña del usuario
-     * @param idUsuario del usuario
+     * Constructor por defecto
      */
+    public Usuario(){
+    }
 
-    public Usuarios(String nombre, String apellido, String direccion, String correo, Integer edad, String contraseña, String idUsuario) {
+
+
+    /**
+    * Constructor con siete parametros
+    * @param nombre del usuario
+    * @param apellido del usuario
+    * @param direccion del usuario
+    * @param correo del usuario
+    * @param edad del usuario
+    * @param contraseña del usuario
+    * @param idUsuario del usuario
+    */
+
+    public Usuario(String nombre, String apellido, String direccion, String correo, Integer edad, String contraseña, String idUsuario) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.direccion = direccion;
