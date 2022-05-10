@@ -14,7 +14,7 @@ public class UsuarioTest {
     public static final String idUsr="Gavila25";
     Usuario usr=null;
     @BeforeEach
-    public void beforeeach(){
+    public void beforeEach(){
         if(usr==null) {
             usr = new Usuario(nombre,apellido,dir,correo,edad,contra,idUsr);
         }
