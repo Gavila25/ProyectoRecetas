@@ -24,7 +24,7 @@ public class SupermercadoTest {
     }
 
     @Test
-    public void contructor2paramsTest(){
+    public void contructor2paramTest(){
         supermercado=new Supermercado(nombre,dir);
         Assertions.assertNotNull(supermercado,"El supermercado no ha recibido sus dos parametros");
     }

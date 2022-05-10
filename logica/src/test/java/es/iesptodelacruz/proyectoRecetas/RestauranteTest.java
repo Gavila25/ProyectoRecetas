@@ -19,7 +19,7 @@ public class RestauranteTest {
     }
 
     @Test
-    public void contructor2paramsTest(){
+    public void contructor2paramTest(){
         rest=new Restaurante(nombre,dir);
         Assertions.assertNotNull(rest,"El constructor no ha recibido los parametros");
     }

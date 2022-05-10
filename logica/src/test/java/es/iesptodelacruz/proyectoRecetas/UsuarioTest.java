@@ -26,7 +26,7 @@ public class UsuarioTest {
         Assertions.assertNotNull(usr,"El usuario no puede ser nulo");
     }
     @Test
-    public void constructor7Test(){
+    public void constructor7paramTest(){
         usr=new Usuario("Guillermo","Avila","Calle bla bla","guillermo@gmail.com",21,"1Q2W3E4R","Gavila25");
         Assertions.assertNotNull(usr,"El usuario no puede ser nulo");
     }
