@@ -23,19 +23,5 @@ public class Recetas {
         this.nombre = nombre;
     }
 
-    public Ingrediente getIngrediente() {
-        return ingrediente;
-    }
 
-    public void setIngrediente(Ingrediente ingrediente) {
-        this.ingrediente = ingrediente;
-    }
-
-    public String getNombre() {
-        return nombre;
-    }
-
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
 }
