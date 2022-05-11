@@ -1,6 +1,7 @@
 package es.iesptodelacruz.proyectoRecetas.modelo;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 
 /**
  * Clase para almacenar todas las recetas
@@ -8,7 +9,7 @@ import java.util.ArrayList;
 public class Recetas {
     Ingrediente ingrediente;
     String nombre;
-    ArrayList<Ingrediente> ingredientes;
+    private HashMap<Recetas,Ingrediente> ingredientes=new HashMap<>();
 
     /**
      * Constructor por defecto
@@ -23,5 +24,13 @@ public class Recetas {
         this.nombre = nombre;
     }
 
+    /**
+     * Metodo para agregar ingedientes a la receta
+     * @param recetas la receta a la que va asignada el ingrediente
+     * @param ingrediente que lleva la receta
+     */
+    public void agregarIngredientes(Recetas recetas,Ingrediente ingrediente){
+        ingredientes.put(recetas,ingrediente);
+    }
 
 }
