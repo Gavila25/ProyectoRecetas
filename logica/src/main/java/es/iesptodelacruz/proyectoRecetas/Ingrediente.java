@@ -20,9 +20,25 @@ public class Ingrediente {
     * @param nombre del ingrediente
     * @param cantidad del ingrediente
     */
-    public Ingrediente(String nombre, Integer cantidad) {
+    public Ingrediente(String nombre, int cantidad) {
         this.nombre = nombre;
         this.cantidad = cantidad;
     }
 
+    /**
+     * Constructor con tres parametros
+     * @param nombre del ingrediente
+     * @param precio del ingrediente
+     * @param cantidad del ingrediente
+     */
+    public Ingrediente(String nombre, double precio, int cantidad){
+        this.nombre=nombre;
+        this.precio=precio;
+        this.cantidad=cantidad;
+    }
+
+    @Override
+    public String toString(){
+        return this.nombre+""+this.cantidad+""+this.precio;
+    }
 }

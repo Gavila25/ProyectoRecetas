@@ -22,18 +22,24 @@ public class IngredienteTest {
         ingrediente=new Ingrediente();
         Assertions.assertNotNull(ingrediente,"El ingrediente no puede ser nulo");
     }
-    /**
-     * Constructor de 3 parametros
-     */
+
+    @Test
+    public void contructor2paramTest(){
+        ingrediente=new Ingrediente(nombre,cantidad);
+        Assertions.assertNotNull(ingrediente,"El ingrediente no puede ser nulo");
+    }
+
+
+
     @Test
     public void constructor3Test(){
         ingrediente=new Ingrediente("nombre", 2.50 , 1);
         Assertions.assertNotNull(ingrediente,"El ingrediente no puede ser nulo");
     }
+
     @Test
     public void toStringTest(){
-        Assertions.assertNotNull(ingrediente.toString(),"La respuesta es nula");
-        Assertions.assertTrue(ingrediente.toString().contains(nombre),"No contiene el nombre");
-
-    
+        Assertions.assertNotNull(ingrediente.toString(),"El metodo to string no puede ser nulo");
+        Assertions.assertTrue(ingrediente.toString().contains(nombre),"El to string no contiene el nombre");
+    }
 }
