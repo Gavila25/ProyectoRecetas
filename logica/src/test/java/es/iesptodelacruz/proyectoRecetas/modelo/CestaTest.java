@@ -1,4 +1,5 @@
-import es.iesptodelacruz.proyectoRecetas.Cesta;
+package es.iesptodelacruz.proyectoRecetas.modelo;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

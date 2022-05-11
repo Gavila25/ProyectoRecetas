@@ -1,9 +1,7 @@
-package es.iesptodelacruz.proyectoRecetas;
+package es.iesptodelacruz.proyectoRecetas.modelo;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-
-import javax.print.DocFlavor;
 
 public class RestauranteTest {
     public static final String nombre="nombre";

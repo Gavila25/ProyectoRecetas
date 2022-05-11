@@ -1,4 +1,4 @@
-package es.iesptodelacruz.proyectoRecetas;
+package es.iesptodelacruz.proyectoRecetas.modelo;
 
 /**
  * Clase para guardar todos los ingredientes
