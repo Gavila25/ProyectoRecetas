@@ -28,4 +28,16 @@ public class Repartidor extends Usuario{
         this.idUsuario = idUsuario;
     }
 
+    @Override
+    public String toString() {
+        return "Repartidor{" +
+                "nombre='" + nombre + '\'' +
+                ", apellido='" + apellido + '\'' +
+                ", direccion='" + direccion + '\'' +
+                ", correo='" + correo + '\'' +
+                ", edad=" + edad +
+                ", contrasenia='" + contrasenia + '\'' +
+                ", idUsuario='" + idUsuario + '\'' +
+                '}';
+    }
 }
